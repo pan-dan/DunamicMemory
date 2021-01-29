@@ -6,7 +6,7 @@ void FillRand(int arr[], const int n);
 void Print(int* arr, const int n);
 
 void FillRandPlus(int brr[], int arr[], const int nplus, int value);
-void PrintPlus(int* brr, const int nplus);
+
 
 void main()
 {
@@ -26,14 +26,13 @@ void main()
 // дописать алгоритм добавления элемента в массив
 
 	nplus = ++n;
-	cout << nplus << endl;
 	int* brr = new int[nplus];
 
 
 	
 	FillRandPlus(brr, arr, nplus, value);
 	brr[nplus-1] = value;
-	PrintPlus(brr, nplus);
+	Print(brr, nplus);
 	
 
 	delete[] arr;
@@ -67,11 +66,3 @@ void FillRandPlus(int brr[], int arr[], const int nplus, int value)
 	
 }
 
-void PrintPlus(int* brr, const int nplus)
-{
-	for (int i = 0; i < nplus; i++)
-	{
-		cout << brr[i] << "\t";
-	}
-	cout << endl;
-}
