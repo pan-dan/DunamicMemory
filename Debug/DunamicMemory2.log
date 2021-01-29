@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\User\source\repos\DunamicMemory\DunamicMemory2\Source.cpp(12,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  DunamicMemory2.vcxproj -> C:\Users\User\source\repos\DunamicMemory\Debug\DunamicMemory2.exe
